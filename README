@@ -1,8 +1,1 @@
-Not sure if the interior ghosts are getting set correctly.   While
-setting up the mesh, going through the increasing levs, I found that the mesh
-was getting refined in strange places.  It was finding a vertical gradient where
-the solution should be uniform, indicating that these ghost interiors were
-not getting properly set following the init_state_on_level.  When I changed
-the init_state_on_level to loop over all cells including ghost and set on all
-those cells, it worked, but this is not a good fix.  We need to make sure interior
-ghosts are getting set. 
+Nothing Yet
