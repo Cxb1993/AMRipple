@@ -1,0 +1,26 @@
+&probin
+
+max_levs      = 3
+ndims         = 2
+nsteps        = 4
+plot_int      = 1
+n_celli       = 32 
+n_cellj       = 32 
+n_cellk       = 1
+max_grid_size = 8
+amr_buf_width = 2
+cluster_minwidth = 16
+cluster_blocking_factor = 8
+cluster_min_eff = 0.70
+regrid_int  = 4
+xlo = 0.0
+xhi = 1.0
+ylo = 0.0
+yhi = 1.0
+zlo = 0.0
+zhi = 1.0
+dens_ratio = 10.0
+max_deltaT = 1.0
+CFL = 0.5
+
+/
